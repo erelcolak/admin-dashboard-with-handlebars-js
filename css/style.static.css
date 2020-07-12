@@ -1,0 +1,35 @@
+
+/*
+###
+STATIC PAGES
+###
+*/
+.static-pages {
+	margin-bottom: 0px !important;
+	min-height: 100%;
+}
+.static-page {
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+}
+.static-page.login {
+	background-image: url(../img/bg/bg-business.jpg);
+}
+.static-page-form-group-container {
+	height: 100vh;
+	background-color: #ffffff;
+	max-width: 384px;
+}
+.static-page-form-logo {
+	text-align: center;
+}
+.static-page-form-logo img {
+	margin: 15px auto;
+	user-select: none;
+}
+.static-page-form-copyright {
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+}
